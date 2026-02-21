@@ -18929,8 +18929,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: flagd
+  namespace: otel-demo
   labels:
-    
+    namespace: otel-demo
     opentelemetry.io/name: flagd
     
     app.kubernetes.io/component: flagd
