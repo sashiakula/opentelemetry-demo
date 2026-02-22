@@ -18931,8 +18931,7 @@ metadata:
   name: flagd
   namespace: otel-demo
   labels:
-    namespace: otel-demo
-    opentelemetry.io/name: flagd
+   opentelemetry.io/name: flagd
     
     app.kubernetes.io/component: flagd
     app.kubernetes.io/name: flagd
